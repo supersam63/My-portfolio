@@ -45,8 +45,9 @@ p {
   font-size: 18px;
   padding: 14px 30px;
 }
-.btn:hover {
+.btn-contact:hover {
   border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 .btn-showcase {
   border: 1px solid var(--primary-color);
@@ -54,8 +55,12 @@ p {
   padding: 14px 30px;
   color: var(--primary-color);
 }
+.btn-showcase:hover {
+  color: #fff !important;
+  background: var(--primary-color) !important;
+}
 .project-description {
-  padding: 0 40px;
+  padding: 20px 60px 0px;
 }
 @media (max-width: 983px) {
   .project-description {
