@@ -38,14 +38,14 @@ p {
   font-weight: normal;
   font-family: "Poppins", sans;
 }
-.btn-contact {
+.btn-branding {
   background: var(--primary-color);
   border-radius: 5px;
   color: #fff;
   font-size: 18px;
   padding: 14px 30px;
 }
-.btn-contact:hover {
+.btn-branding:hover {
   border-color: var(--primary-color) !important;
   color: var(--primary-color) !important;
 }
@@ -79,4 +79,22 @@ p {
   .hero h3 {
     font-size: 24px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+}
+.head-shot {
+  height: 560px;
+  width: 560px;
+  border-radius: 10px;
+}
+.about-section h4 {
+  font-size: 18px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
 }
