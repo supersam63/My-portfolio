@@ -18,6 +18,7 @@ h2 {
   font-size: 64px;
   font-family: "Playfair Display", serif;
 }
+
 p {
   font-size: 16px;
   font-weight: normal;
@@ -125,6 +126,42 @@ nav a:hover,
 nav li.active a {
   color: var(--primary-color);
 }
+footer {
+  margin: 60px 0;
+}
+footer h2 {
+  font-size: 48px;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 75px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 17px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
