@@ -197,4 +197,10 @@ footer .social-links a:hover {
     max-height: 35px;
     padding-top: 5px;
   }
+  .content-container h1 {
+    font-size: 44px;
+  }
+  .content-container {
+    padding: 30px 20px;
+  }
 }
