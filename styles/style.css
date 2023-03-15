@@ -94,7 +94,7 @@ p {
   width: 598px;
   border-radius: 10px;
 }
-.content-container img:hover {
+.work-container img:hover {
   transform: scale(1.1, 1.1);
   transition: all 120ms ease-in-out;
 }
